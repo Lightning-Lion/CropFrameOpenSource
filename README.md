@@ -76,6 +76,8 @@ ClosureComponent代码参考：[ https://developer.apple.com/documentation/reali
 
 [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON.git) [许可证](https://github.com/SwiftyJSON/SwiftyJSON/blob/master/LICENSE)
 
+App图标由豆包绘制。
+
 ---
 
 # 非分发说明
