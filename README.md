@@ -1,4 +1,4 @@
-
+Crop Frame
 ---
 
 # 如何运行
@@ -69,6 +69,12 @@
 照片拍摄动画参考：[https://developer.apple.com/documentation/swiftui/creating-visual-effects-with-swiftui](https://developer.apple.com/documentation/swiftui/creating-visual-effects-with-swiftui)
 
 ClosureComponent代码参考：[ https://developer.apple.com/documentation/realitykit/tracking-and-visualizing-hand-movement]( https://developer.apple.com/documentation/realitykit/tracking-and-visualizing-hand-movement)
+
+第三方软件包：
+
+[OpenCV-SPM](https://github.com/yeatse/opencv-spm.git) [许可证](https://github.com/yeatse/opencv-spm/blob/main/LICENSE)
+
+[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON.git) [许可证](https://github.com/SwiftyJSON/SwiftyJSON/blob/master/LICENSE)
 
 ---
 
