@@ -1,6 +1,12 @@
 Crop Frame
 ---
 
+# 实机演示
+
+[https://www.bilibili.com/video/BV1CoP1eKERg](https://www.bilibili.com/video/BV1CoP1eKERg)
+
+---
+
 # 如何运行
 
 ## 先决条件：
@@ -19,13 +25,15 @@ Crop Frame
 
 1. 在项目的Signing & Capabilities里检查是否已经设置了Main Camera Access能力。
 
+教程视频：[https://www.bilibili.com/video/BV1CZP1evE7s](https://www.bilibili.com/video/BV1CZP1evE7s)
+
 ---
 
 # 抛砖引玉
 
 代码有很多地方能优化的，欢迎您讨论。您不用「慢悠悠的发邮件等回复」。
 
-您直接来找我，给您拉视频会议，马上解决，（免费）。
+您直接来[找我](https://www.feishu.cn/invitation/page/add_contact/?token=d4br5909-0f29-4e22-adf8-aebc814e7c5d&amp;unique_id=Zz2qoXiCUqhYjKsrHBrGnA==)，给您拉视频会议，马上解决，（免费）。
 
 如果您没有Enterprise APIs，但**想更多了解它用起来是什么样的**，也可以加我，我可以为您提供更多实机演示视频。
 
