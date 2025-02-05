@@ -25,6 +25,8 @@ Crop Frame
 
 1. 在项目的Signing & Capabilities里检查是否已经设置了Main Camera Access能力。
 
+1. 使用[配套工具](https://github.com/Lightning-Lion/AlignerOpenSource)对齐相机画面。 
+
 教程视频：[https://www.bilibili.com/video/BV1CZP1evE7s](https://www.bilibili.com/video/BV1CZP1evE7s)
 
 ---
