@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40425F52F31D67F0071D535 /* Enterprise.license in Resources */ = {isa = PBXBuildFile; fileRef = B40425F42F31D67F0071D535 /* Enterprise.license */; };
 		B442E4162D4A26590061A4B0 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = B442E4152D4A26590061A4B0 /* RealityKitContent */; };
 		B442E4442D4A2AFF0061A4B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B442E4432D4A2AF70061A4B0 /* README.md */; };
 		B45057182D51FDFD00399FA6 /* MixedRealityKit in Frameworks */ = {isa = PBXBuildFile; productRef = B45057172D51FDFD00399FA6 /* MixedRealityKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B40425F42F31D67F0071D535 /* Enterprise.license */ = {isa = PBXFileReference; lastKnownFileType = text; path = Enterprise.license; sourceTree = "<group>"; };
 		B442E3ED2D4A26150061A4B0 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		B442E4432D4A2AF70061A4B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B45C1AF92D422ED9009C2DB6 /* CropFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B45C1B102D422EDA009C2DB6 /* Exceptions for "CropFrame" folder in "CropFrame" target */ = {
+		B4EE11592F33599B00F5FEED /* Exceptions for "CropFrame" folder in "CropFrame" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -32,7 +34,7 @@
 		B45C1AFB2D422ED9009C2DB6 /* CropFrame */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B45C1B102D422EDA009C2DB6 /* Exceptions for "CropFrame" folder in "CropFrame" target */,
+				B4EE11592F33599B00F5FEED /* Exceptions for "CropFrame" folder in "CropFrame" target */,
 			);
 			path = CropFrame;
 			sourceTree = "<group>";
@@ -55,6 +57,7 @@
 		B45C1AF02D422ED9009C2DB6 = {
 			isa = PBXGroup;
 			children = (
+				B40425F42F31D67F0071D535 /* Enterprise.license */,
 				B442E4432D4A2AF70061A4B0 /* README.md */,
 				B45C1AFB2D422ED9009C2DB6 /* CropFrame */,
 				B45C1AFC2D422ED9009C2DB6 /* Packages */,
@@ -155,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40425F52F31D67F0071D535 /* Enterprise.license in Resources */,
 				B442E4442D4A2AFF0061A4B0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +190,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Crop Frame";
+				INFOPLIST_KEY_NSHandsTrackingUsageDescription = "通过手势划定取景框";
+				INFOPLIST_KEY_NSMainCameraUsageDescription = "通过摄像头来拍照";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -197,6 +203,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
@@ -214,6 +221,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Crop Frame";
+				INFOPLIST_KEY_NSHandsTrackingUsageDescription = "通过手势划定取景框";
+				INFOPLIST_KEY_NSMainCameraUsageDescription = "通过摄像头来拍照";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -225,6 +234,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
